@@ -3,8 +3,24 @@
 # FlowLayout
 Android流式布局，支持单选、多选等，适合用于产品标签等。
 
+## 说明
 
-##特色
+本 repo 是 fork @hongyangAndroid 的项目，在其基础上添加了长按事件监听，以及 Adapter 的数据更新相关功能
+
+使用：
+
+```
+repositories {
+    maven { url 'https://raw.githubusercontent.com/twiceyuan/flowlayout/master/repository' }
+}
+dependencies {
+    compile 'com.twiceyuan:flowlayout:1.0'
+}
+```
+
+如果要使用
+
+## 特色
 * 以setAdapter形式注入数据
 * 直接设置selector为background即可完成标签选则的切换，类似CheckBox
 * 支持控制选择的Tag数量，比如：单选、多选

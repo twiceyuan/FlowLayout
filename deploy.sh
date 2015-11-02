@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=com.twiceyuan -DartifactId=flowlayout -Dversion=1.0 -Dfile=flowlayout-lib/build/outputs/aar/flowlayout-lib-release.aar -Dpackaging=aar -DgeneratePom=true -DlocalRepositoryPath=repository -DcreateChecksum=true
